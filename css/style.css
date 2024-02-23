@@ -927,8 +927,8 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     color: #ffffff;
-    background-color: #2c704f;
-    background-image: url(../assets/home/appointment/bg2.webp);
+    background-color: #ffffff;
+    background-image: url(../uploads/banner/Picsart_24-02-23_21-56-58-281.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9324,6 +9324,8 @@
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
     }
+
+    
   }
   #home-leaf-section .inner-section::after {
     content: "SPECIALITIES";
@@ -10252,3 +10254,10 @@
   .content{
     color: rgba(60, 60, 60, 0.671)
   }
+
+
+  @media screen and (max-width: 1508px) {
+    #home-banner > div.ctr > div.content-section > h1 {
+        display: none;
+    }
+}
