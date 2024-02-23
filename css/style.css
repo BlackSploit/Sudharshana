@@ -10260,4 +10260,14 @@
     #home-banner > div.ctr > div.content-section > h1 {
         display: none;
     }
+
+
+    #home-banner .header-section .left .logo-section .logo {
+      height: 150px;
+      width: 350px;
+      background-image: url(../assets/logo.png);
+      background-size: 200px;
+      background-position: left;
+      background-repeat: no-repeat;
+    }
 }
